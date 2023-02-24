@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+background-image: url(images/bg-pattern-top.svg);
+background-image: url(images/bg-pattern-bottom.svg);
+
+background-color:  hsl(185, 75%, 39%);
+}
+.contanier {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 6px
+
+}
+.contanier .image{
+    position: relative;
+    
+}
+.contanier  .image1{
+    
+    position: relative;
+
+}
+.contanier .image2{
+    border-radius: 50%;
+    border: 4px solid white;
+  
+    position: absolute;
+    margin-top: 88px;
+    margin-left: -226px;
+    
+    
+}
+.contanier .text{
+    margin-top: 65px;
+    text-align: center;
+    border-bottom: .5px solid hsl(0, 0%, 59%);
+
+}
+.contanier .firstText{
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+.contanier .firstText .p1{
+font-size: larger;
+margin-right: 10px;
+}
+
+.contanier .firstText .p2{
+    margin-top: 2px;
+}
+.contanier .text >.p2{
+ margin-bottom: 25px;
+}
+.contanier .p2{
+    color: hsl(0, 0%, 59%);
+}
+.contanier .p1{
+    font-weight: bold;
+}
+.contanier .boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+}
